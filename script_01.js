@@ -4,7 +4,7 @@
 
 // Deklaration + Assigment
 const ageJohn = 30;
-const ageMark = 30;
+const ageMark = 35;
 
 // Deklaration
 let isJohnOlder, isJohnEqual;
