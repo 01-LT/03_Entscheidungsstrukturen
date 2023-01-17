@@ -76,33 +76,36 @@
 const firstName = "Jane";
 let job;
 
-// job = "driver";     // .. fährt TAXI! / UBER
-// // job = "diver";      // .. taucht im Rhein! 
-// // job = "artist";     // .. malt ein Bild!
-// // job = "pilot";      // .. macht etwas anderes! --> default
-// // job = "teacher";    // .. unterrichtet!
-// // //job "instructor";  // .. unterrichtet!
+//job = "driver";     // .. fährt TAXI! / UBER
+// job = "diver";      // .. taucht im Rhein! 
+// job = "artist";     // .. malt ein Bild!
+// job = "pilot";      // .. macht etwas anderes! --> default
+// job = "teacher";    // .. unterrichtet!
+job = "instructor";  // .. unterrichtet!
 
-// switch (job) 
-// {
-//     case "driver":
-//         console.log("Jane fährt TAXI!");
-//         break;
-//     case "diver":
-//         console.log("Jane taucht im Rhein!");
-//         break;
-//     case "artist":
-//         console.log("Jane malt ein Bild!");
-//         break;
-//     case "teacher":
-//     case "intructor":
-//         console.log("Jane unterrichtet!");
-//         break;    
-//     // case "instructor" || "teacher" // ??
-//     //      console.log("Jane unterrichtet!");
-//     // break;
-    
-//     default:
-//         console.log("Jane macht etwas anderes!");
-//         break;
-// }
+switch (job) 
+{
+    case "driver":
+        console.log("Jane fährt TAXI!");
+        break;
+    case "diver":
+        console.log("Jane taucht im Rhein!");
+        break;
+    case "artist":
+        console.log("Jane malt ein Bild!");
+        break;
+    case "teacher":
+    case "instructor":
+        console.log("Jane unterrichtet!");
+        break;
+
+    // case "instructor" || "teacher": // ??
+    //     console.log("Jane unterrichtet!");
+    //     break;
+
+
+    default:
+        console.log("Jane macht etwas anderes!");
+        break;
+}
+
