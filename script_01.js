@@ -111,18 +111,42 @@ job = "instructor";  // .. unterrichtet!
 
 /********  Fallunterscheidung / SWITCH|CASE 2 *******/
 
-const cond = true;
-const a = 10;
+// const cond = true;
+// const a = 2;
 
-switch (cond) {
-    case (a == 1): // true && true
-        console.log("a ist gleich 1");
+// switch (cond) {
+//     case (a == 1): // true && true
+//         console.log("a ist gleich 1");
+//         break;
+//     case (a == 2):
+//         console.log("a ist gleich 2");
+//         break;
+//     default:
+//         console.log("Jane macht etwas anderes!");
+//         console.log("a hat einen anderen Wert");
+//         break;
+// }
+
+
+let namen, alter;
+
+namen = (prompt("Bitte einen Namen eingeben"));
+alter = (prompt("Bitte ein Alter eingeben")); 
+// // const cond = true;
+// // const a = 2;
+
+switch (true) {
+    case (alter >=  0 && alter < 6): // true && true
+        console.log(namen + " " + "trinkt Milch");
         break;
-    case (a == 2):
-        console.log("a ist gleich 2");
+    case (alter >= 6 && alter <= 12):
+        console.log(namen + " " + "trinkt Saft");
         break;
+    case (alter >= 13 && alter <= 17):
+            console.log(namen + " " + "trinkt Cola");
+            break;
     default:
-        console.log("Jane macht etwas anderes!");
-        console.log("a hat einen anderen Wert");
+        console.log(namen + " " + "trinkt Wein");
+    //     console.log("a hat einen anderen Wert");
         break;
 }
